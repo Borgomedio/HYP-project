@@ -19,3 +19,44 @@ body nav img {
 .navbar-brand {
     margin-top: -8px;
 }
+
+#device-cat {
+    background-image: url(/img/device-categories/banner_welcome_page_prodotti_072015.jpg);
+    background-size: cover;
+    
+}
+
+.col-sm-6 {
+    
+    background: #fff;
+	cursor: pointer;
+	float: left;
+    height: auto;
+    width: 400px;
+    display: grid;  
+	border: 10px solid #fff;
+	text-align: left;
+	text-transform: none;
+	margin: 15px;
+	z-index: 1;
+	-webkit-backface-visibility: hidden;
+	box-shadow: 
+		0px 0px 0px 10px rgba(255,255,255,1), 
+		1px 1px 3px 10px rgba(0,0,0,0.2);
+}
+
+.device-cat h2 {
+    color: white;
+}
+
+.footer {
+  position: sticky;
+  bottom: 5px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  background-color: #f5f5f5;
+}
+
+
+
