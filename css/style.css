@@ -1,0 +1,21 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+body nav img {
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+
+#testimonial {
+    background-image: url(/img/who-we-are/testimonial.jpg);
+    color: azure;
+    background-size:cover;
+}
+
+.navbar-brand {
+    margin-top: -8px;
+}
