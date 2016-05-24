@@ -29,24 +29,32 @@ body nav img {
 .col-sm-6 {
     
     background: #fff;
+    display:block;
 	cursor: pointer;
-	float: left;
+	float: none;
     height: auto;
-    width: 400px;
-    display: grid;  
+    width:inherit;  
 	border: 10px solid #fff;
 	text-align: left;
 	text-transform: none;
-	margin: 15px;
+	margin: 20px;
 	z-index: 1;
 	-webkit-backface-visibility: hidden;
 	box-shadow: 
 		0px 0px 0px 10px rgba(255,255,255,1), 
 		1px 1px 3px 10px rgba(0,0,0,0.2);
+    
+    
 }
+
+
 
 .device-cat h2 {
     color: white;
+}
+
+#marg {
+   text-align: center;
 }
 
 .footer {

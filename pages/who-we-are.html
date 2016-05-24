@@ -12,13 +12,15 @@
         <link href="/css/bootstrap.min.css" rel="stylesheet">
         <link href="/css/style.css" rel="stylesheet">
         
+        
+        
     </head>
 
     <body>
-        <!— Navbar -->
+        <!-- Navbar -->
         <nav class="navbar navbar-default" role="navigation">
 
-          <!—Logo e pulsante per barra ridimensionata -->
+          <!--Logo e pulsante per barra ridimensionata -->
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
               <span class="sr-only">Show more</span>
@@ -74,7 +76,7 @@
             <div id="testimonial" class="jumbotron">
                 <h1>Tim Berners-Lee</h1>
                 <p>"When you look at the Web it's like observing the whole of humanity."</p>
-                <p><a class="btn btn-primary btn-lg" href="#" role="button">Video</a></p>
+                <p><a class="btn btn-primary btn-lg youtube"  href="https://www.youtube.com/watch?v=-rxy9lI8-7Q&feature=youtu.be">Video</a></p>
             </div>
             
             <div class="row">
@@ -120,16 +122,20 @@
         <p class="text-muted">&copy; Tim Company 2016</p>
       </div>
     </footer>
-            <!-- Bootstrap core JavaScript
+            <!-- Bootstrap core JavaScript 
             ================================================== -->
             <!-- Placed at the end of the document so the pages load faster -->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
             <script>window.jQuery || document.write("<script src="js/jquery.min.js"><\/script>")</script>
             <script src="/js/bootstrap.min.js"></script>
-            <!-- bxSlider Javascript file -->
-            <script src="/js/jquery.bxslider.min.js"></script>
-            <script src="/js/init-slider.js"></script>
-
+            <!-- popup video script -->
+            <script src="/js/bootstrap.youtubepopup.min.js"></script>
+            <script type="text/javascript">
+	           $(function () {
+		      $(".youtube").YouTubeModal({autoplay:0, width:640, height:480});
+	           });
+        </script>
+            
         
         </div>
     </body>
