@@ -44,16 +44,14 @@ body nav img {
 
 .list-group-item {
     display: block;
+
 }
 
-.col-sm-6 {
-    
+
+
+.blocco{
     background: #fff;
-    display:block;
 	cursor: pointer;
-	float: none;
-    height: auto;
-    width:inherit;  
 	border: 10px solid #fff;
 	text-align: left;
 	text-transform: none;
@@ -63,9 +61,12 @@ body nav img {
 	box-shadow: 
 		0px 0px 0px 10px rgba(255,255,255,1), 
 		1px 1px 3px 10px rgba(0,0,0,0.2);
-    
-    
+    padding:2px;
+
 }
+
+
+
 
 
 
