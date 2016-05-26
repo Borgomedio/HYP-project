@@ -34,20 +34,16 @@ body nav img {
 }
 
 .list-group {
-    float:left;
-    margin: auto;
-    margin-left:auto;
+
+    width: 200px;
     margin-right: 20px;
-    margin-bottom: auto;
-    width: 20%;
+    float: left;
 }
 
-.list-group-item {
-    display: block;
-
+#contenuto {
+    margin-left: 15%;
+    
 }
-
-
 
 .blocco{
     background: #fff;
