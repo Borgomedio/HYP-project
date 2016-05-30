@@ -1,3 +1,4 @@
+/* generici */
 body {
     padding-top: 50px;
     padding-bottom: 20px;
@@ -20,11 +21,26 @@ body nav img {
     margin-top: -8px;
 }
 
-#device-cat {
-    background-image: url(/img/device-categories/banner_welcome_page_prodotti_072015.jpg);
-    background-size: cover;   
+/* media screen */
+
+@media (max-width: @screen-sm-min)
+{
+    .list-group{
+        float: none;
+        width: auto;
+        margin-left: auto;
+    }
 }
 
+@media screen and (max-width: 640px)
+{
+    .bxslider {
+        height: 270px;
+    }
+}
+
+
+/* all-smart-life */
 #all-smart {
     background-image: url(/img/all-smartlife/bannersmart.png)
 }
@@ -35,15 +51,15 @@ body nav img {
 
 .list-group {
 
-    width: 200px;
+    width: 20%;
     margin-right: 20px;
     float: left;
 }
-
 #contenuto {
     margin-left: 15%;
     
 }
+
 
 .blocco{
     background: #fff;
@@ -65,6 +81,11 @@ body nav img {
 
 
 
+/* device-category */
+#device-cat {
+    background-image: url(/img/device-categories/banner_welcome_page_prodotti_072015.jpg);
+    background-size: cover;   
+}
 
 .device-cat h2 {
     color: white;
@@ -74,6 +95,8 @@ body nav img {
    text-align: center;
 }
 
+
+/* footer */
 .footer {
   position: sticky;
   bottom: 5px;
