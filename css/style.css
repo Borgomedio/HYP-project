@@ -21,12 +21,34 @@ body nav img {
     margin-top: -8px;
 }
 
-/* media screen */
+/* as-categories */
+
+.blocco_as
+{
+    background: #fff;
+	cursor: pointer;
+	border: 10px solid #fff;
+	text-align: center;
+	text-transform: none;
+    width: 20%;
+    height: auto;
+	margin-right: 5%;
+	z-index: 1;
+	-webkit-backface-visibility: hidden;
+	box-shadow: 
+		0px 0px 0px 10px rgba(255,255,255,1), 
+		1px 1px 3px 10px rgba(0,0,0,0.2);
+    padding:2px;
+}
+
+#as-categories, #all-as {
+    background-image: url(/img/as-categories/header-support.png)
+}
 
 
-/* all-smart-life */
+/* all smart-life  */
 #all-smart {
-    background-image: url(/img/all-smartlife/bannersmart.png)
+    background-image: url(/img/all-smartlife/bannersmart.png) 
 }
 
 #all-smart h2{
@@ -57,26 +79,27 @@ body nav img {
     padding:2px;
 
 }
+/*  smart-life categories  */
 
-
+#smart-cat{
+    background-image: url(/img/all-smartlife/bannersmart.png);
+}
 /* device-category */
 #device-cat {
     background-image: url(/img/device-categories/banner_welcome_page_prodotti_072015.jpg);
     background-size: cover;   
 }
 
-.device-cat h2 {
-    color: white;
+div h2 {
+    color: azure;
 }
 
 #marg {
    text-align: center;
 }
 
-/* all-as */
-.list-group-item h4{
-    color: aqua;
-}
+
+
 /* footer */
 .footer {
   position: sticky;
