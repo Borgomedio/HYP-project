@@ -165,6 +165,17 @@ div h2 {
 }
 
 
+/* device promotion */
+.portfolio-item{
+    margin-bottom: 30px;
+}
+.portfolio-item p
+{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    height: 60px;
+    text-align: justify
+}
 
 /* footer */
 .footer {
