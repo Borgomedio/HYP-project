@@ -21,6 +21,25 @@ body nav img {
     margin-top: -8px;
 }
 
+
+
+/* media query */
+
+@media screen and (max-width:768px)
+{
+     
+    .navbar-brand {
+        width: 20px;
+    }
+}
+@media screen and (max-width:768px )
+{
+    .list-group{
+        height: auto;
+        width: auto;
+        float: none;
+    }
+}
 /* as-categories */
 
 .blocco_as
@@ -45,8 +64,25 @@ body nav img {
     background-image: url(/img/as-categories/header-support.png)
 }
 
+/* all as */
 
-/* all smart-life  */
+.list-group {
+
+    width: 20%;
+    margin-right: 3%;
+    float:left;
+    margin-left: 1%;
+}
+
+
+
+/* all smart life*/
+#all-smart h2{
+    color: azure;
+}
+#all-smart {
+    background-image: url(/img/all-smartlife/bannersmart.png);
+}
 
 .page-header {
     border: 0px;
@@ -65,9 +101,6 @@ body nav img {
 }
 
 
-#all-smart {
-    background-image: url(/img/all-smartlife/bannersmart.png);
-}
 
 #bannertv {
     background-image: url(/img/all-smartlife/01-tv-entertainment.jpg);
@@ -94,17 +127,6 @@ body nav img {
     height: auto;
 }
 
-
-#all-smart h2{
-    color: azure;
-}
-
-.list-group {
-
-    width: 20%;
-    margin-right: 5%;
-    float: left;
-}
 
 
 
@@ -158,6 +180,8 @@ div h2 {
 .footer p {
     padding: 10px;
 }
+
+.flex {max-width: 100%}
 
 
 
