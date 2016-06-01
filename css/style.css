@@ -177,6 +177,13 @@ div h2 {
     text-align: justify
 }
 
+/* all devices */
+
+#device-all{
+    background-image: url(/img/device-categories/banner_welcome_page_prodotti_072015.jpg);
+    background-size: cover;
+}
+
 /* footer */
 .footer {
   position: sticky;
