@@ -21,6 +21,14 @@ body nav img {
     margin-top: -8px;
 }
 
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
 
 
 /* media query */
@@ -183,6 +191,34 @@ div h2 {
     background-size: cover;
 }
 
+/* device */
+
+#titolo {
+    color: #10469b;
+    
+}
+.paragrafi{
+    text-align: justify;
+}
+
+
+#sottotitolo{
+    color: #10469b;
+}
+
+#prezzo{
+    color: red;
+}
+
+#next{
+   float: right;
+    margin-right: auto;
+}
+
+#back {
+    position: left;
+    margin-left: auto;
+}
 /* footer */
 .footer {
   position: sticky;
