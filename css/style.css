@@ -32,13 +32,12 @@ body nav img {
         width: 20px;
     }
 }
-@media screen and (max-width:768px )
+@media screen and (max-height:768px )
 {
-    .list-group{
-        height: auto;
-        width: auto;
-        float: none;
-    }
+    
+    
+    
+}
 }
 /* as-categories */
 
