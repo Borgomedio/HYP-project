@@ -39,14 +39,17 @@ body nav img {
     .navbar-brand {
         width: 20px;
     }
-}
-@media screen and (max-height:768px )
-{
+    
+    #media-slider {
+        height: 200px;
+    }
+    
+   
     
     
-    
 }
-}
+
+
 /* as-categories */
 
 .blocco_as
@@ -206,7 +209,7 @@ div h2 {
     color: #10469b;
 }
 
-#prezzo{
+.prezzo{
     color: red;
 }
 
@@ -225,13 +228,20 @@ div h2 {
   bottom: 5px;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 40px;
+  height: 60px;
   background-color: #f5f5f5;
-    margin-top: 20px;
+  margin-top: 20px;
+  text-align: right;
+    
 }
 
 .footer p {
-    padding: 10px;
+    margin-top: -60px;
+}
+
+.footer .breadcrumb {
+    text-align: left;
+    padding: 20px;
 }
 
 .flex {max-width: 100%}
