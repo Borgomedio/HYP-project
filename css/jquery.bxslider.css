@@ -130,6 +130,8 @@
 	height: 32px;
 	text-indent: -9999px;
 	z-index: 9999;
+    color: white;
+    
 }
 
 .bx-wrapper .bx-controls-direction a.disabled {
@@ -193,6 +195,7 @@
 	background: #666\9;
 	background: rgba(80, 80, 80, 0.75);
 	width: 100%;
+    
 }
 
 .bx-wrapper .bx-caption span {

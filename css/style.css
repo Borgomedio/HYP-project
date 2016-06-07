@@ -49,6 +49,23 @@ body nav img {
     
 }
 
+/* home */
+.thumbnail {
+    width: 230px;
+    height: 450px;
+    margin: auto;
+    
+}
+
+.caption h2 {
+    color: #10469b;
+    text-align: center;
+}
+
+.thumbnail img {
+    background-size: contain;
+}
+
 
 /* as-categories */
 
@@ -211,9 +228,24 @@ div h2 {
 #sottotitolo{
     color: #10469b;
 }
+#features{
+    border: 2px;
+    border-style:ridge;
+}   
 
+#desc {
+    border:2px;
+    border-style: ridge;
+    
+}
 .prezzo{
     color: red;
+}
+    
+#as{
+    border:2px;
+    border-style:ridge;
+    border-collapse: collapse;
 }
 
 #next{
