@@ -1,6 +1,6 @@
 <?php
     
-    $mysqli = new mysqli("localhost", "root", "root", "");
+    $mysqli = new mysqli("localhost", "root", "", "ODS_DB");
 
     if (mysqli_connect_errno()) { 
         echo "Error to connect to DBMS: ".mysqli_connect_error(); 
