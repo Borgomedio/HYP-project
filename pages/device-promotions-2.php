@@ -80,8 +80,8 @@
         </div>
         
 <?php 
-        $db_connection= mysql_connect('localhost','hypproject',''); 
-        $db_selection = mysql_select_db('my_hypproject',$db_connection); 
+        $db_connection= mysql_connect('localhost','root','root'); 
+        $db_selection = mysql_select_db('ODS_DB',$db_connection); 
 		$query = mysql_query("SELECT * FROM Device WHERE nome='iPhone 6S'"); 
         $cicle=mysql_fetch_array($query);
         $cicle['nome']; 
@@ -101,8 +101,8 @@
             </div>
 
 <?php 
-        $db_connection= mysql_connect('localhost','hypproject',''); 
-        $db_selection = mysql_select_db('my_hypproject',$db_connection); 
+        $db_connection= mysql_connect('localhost','root','root'); 
+        $db_selection = mysql_select_db('ODS_DB',$db_connection); 
 		$query = mysql_query("SELECT * FROM Device WHERE nome='Samsung Galaxy TAB A 9.7'"); 
         $cicle=mysql_fetch_array($query);
         $cicle['nome']; 
@@ -119,8 +119,8 @@
             </div>
             
 <?php 
-        $db_connection= mysql_connect('localhost','hypproject',''); 
-        $db_selection = mysql_select_db('my_hypproject',$db_connection); 
+        $db_connection= mysql_connect('localhost','root','root'); 
+        $db_selection = mysql_select_db('ODS_DB',$db_connection); 
 		$query = mysql_query("SELECT * FROM Device WHERE nome='Repeater Wi-Fi ZyXEL AC750'"); 
         $cicle=mysql_fetch_array($query);
         $cicle['nome']; 
