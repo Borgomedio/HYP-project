@@ -195,7 +195,10 @@ div h2 {
 }
 
 /* device */
-
+.immagine {
+    height: 350px;
+    width: 350px;
+}
 #titolo {
     color: #10469b;
     
