@@ -52,7 +52,7 @@ body nav img {
 /* home */
 .thumbnail {
     width: 230px;
-    height: 450px;
+    height: auto;
     margin: auto;
     
 }
