@@ -198,11 +198,23 @@ div h2 {
 }
 .portfolio-item p
 {
-    overflow:hidden;
-    text-overflow:ellipsis;
-    height: 60px;
-    text-align: justify
+    
+    height: auto;
+    text-align: center;
+    
 }
+
+.portfolio-item h5{
+    text-align: center;
+}
+
+#dvPRbl img{
+    height: 230px;
+    width: 230px;
+}
+
+
+
 
 /* all devices */
 
@@ -240,6 +252,7 @@ div h2 {
 }
 .prezzo{
     color: red;
+    
 }
     
 #as{

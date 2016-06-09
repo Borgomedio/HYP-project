@@ -15,7 +15,7 @@ function deviceDL(){
             for(var i=0;i<device.length;i++){
                 console.log(device[i].title);
                 
-                el+= "<div class='col-md-4 portfolio-item' id='dvPRbl'>  <a href='#'> <img class='img-responsive' src='"+device[i].G+"' alt=''></a> <h3> <a href='#'>"+device[i].A+"</a> </h3><p>"+device[i].D+"</p><a href='#' class='btn btn-primary' role='button'>View More</a></div>";             
+                el+= "<div class='col-md-4 text-center  portfolio-item' id='dvPRbl'>  <a href='#'> <img class='img-responsive center-block' src='"+device[i].G+"' alt=''></a> <h5> <a href='#'>"+device[i].A+"</a> </h5><p class='prezzo''>"+device[i].D+"</p><a href='#' class='btn btn-primary' role='button'>View More</a></div>";             
                 
             }
             
