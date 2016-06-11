@@ -35,21 +35,22 @@ body nav img {
 
 @media screen and (max-width:768px)
 {
-     
     .navbar-brand {
         width: 20px;
     }
-    
-    #media-slider {
-        height: 200px;
+}
+
+@media (max-width: 768px)
+{
+    .list-group {
+        float: none;
     }
-    
-   
-    
-    
 }
 
 /* home */
+#media-slider {
+    margin-left: 10px;
+}
 .thumbnail {
     width: 230px;
     height: auto;
@@ -93,17 +94,15 @@ body nav img {
 
 /* all as */
 
-.list-group {
 
-    width: 20%;
-    margin-right: 3%;
-    float:left;
-    margin-left: 1%;
-}
 
 
 
 /* all smart life*/
+.page-header {
+    margin: 0;
+}
+
 #all-smart h2{
     color: azure;
 }
@@ -276,21 +275,23 @@ div h2 {
   bottom: 5px;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 60px;
+  height: auto;
   background-color: #f5f5f5;
   margin-top: 20px;
-  text-align: right;
-    
+}
+
+.breadcrumb  {
+   float: left;
+    padding-top: 20px;
 }
 
 .footer p {
-    margin-top: -60px;
+    text-align: right;
+    padding-top: 20px;
+    
 }
 
-.footer .breadcrumb {
-    text-align: left;
-    padding: 20px;
-}
+
 
 .flex {max-width: 100%}
 
