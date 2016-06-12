@@ -13,9 +13,9 @@ function deviceDL(){
             var device=JSON.parse(response);
             var el="";
             for(var i=0;i<device.length;i++){
-                console.log(device[i].title);
+                console.log(device[i].A);
                 
-                el+= "<div class='col-md-4 text-center  portfolio-item' id='dvPRbl'>  <a href='#'> <img class='img-responsive center-block' src='"+device[i].G+"' alt=''></a> <h5> <a href='#'>"+device[i].A+"</a> </h5><p class='prezzo''>"+device[i].D+"</p><a href='#' class='btn btn-primary' role='button'>View More</a></div>";             
+                el+= "<div class='col-md-4 text-center  portfolio-item'>  <a href='#'> <img class='img-responsive center-block' src='"+device[i].G+"' alt=''></a> <h5> <a href='#'>"+device[i].A+"</a> </h5><p class='prezzo''>"+device[i].D+"</p><a href='#' class='btn btn-primary' role='button'>View More</a></div>";             
                 
             }
             
