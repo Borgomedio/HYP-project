@@ -14,16 +14,32 @@ function deviceALL() {
             var el="";
             for(var i=0;i<device.length-1;i++){
                 console.log(device[i].A);
-            var tipo=1
+           
+                var tipo=1
                 if(device[i].F=="smartphone"){
                     var tipo=1;
                 }else if(device[i].F=="tablet"){
                     var tipo=2;
                 }else if(device[i].F=="tv & smart living"){
                     var tipo=3;
+                }else{
+                    var tipo=4;   
                 };
                 
-                el+= "<li class='mix color-"+tipo+" check2'><img src='"+device[i].G+"' alt='Image "+i+"'></li>           <li class='gap'></li>                                                                           	<li class='gap'></li>                                                                 				<li class='gap'></li>";             
+                console.log('tipo='.tipo);
+                
+                 var marca=1
+                if(device[i].H=="iOS"){
+                    var marca=2;
+                }else if(device[i].H=="Android"){
+                    var marca=1;
+                }else{
+                    var marca=3;   
+                };
+                
+                console.log('marca='.marca);
+                
+                el+= "<li class='mix color-"+tipo+" check"+marca+"'><img src='"+device[i].G+"' alt='Image "+i+"'></li>";             
                 
             }
             
