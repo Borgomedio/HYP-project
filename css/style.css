@@ -224,8 +224,8 @@ div h2 {
 
 /* device */
 .immagine {
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
 }
 #titolo {
     color: #10469b;
@@ -239,18 +239,22 @@ div h2 {
 #sottotitolo{
     color: #10469b;
 }
+
 #features{
-    border: 2px;
-    border-style:ridge;
+    border: 0.5px;
+    border-style:double;
 }   
 
 #desc {
-    border:2px;
-    border-style: ridge;
+    border:0.5px;
+    border-style: double;
+    margin-top: 30px;
     
 }
-.prezzo{
+.prezzo-dev{
     color: red;
+    margin-bottom: 10px;
+    text-align: center;
     
 }
     
@@ -266,18 +270,22 @@ div h2 {
 }
 
 #back {
-    position: left;
+    
     margin-left: auto;
 }
 /* footer */
 .footer {
-  position: sticky;
+  
   bottom: 5px;
   width: 100%;
   /* Set the fixed height of the footer here */
   height: auto;
   background-color: #f5f5f5;
   margin-top: 20px;
+    
+  position: sticky;
+  border: 1px solid transparent;
+  border-color: #e7e7e7;
 }
 
 .breadcrumb  {
