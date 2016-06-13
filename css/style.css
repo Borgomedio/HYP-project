@@ -47,6 +47,19 @@ body nav img {
     }
 }
 
+@media (max-width: 768px)
+{
+    .cont-blocchetti .blocchetto {
+        margin-top: 10px;
+    }
+    
+    .blocco_as{
+        margin-top: 30px;
+    }
+   
+}
+
+
 /* home */
 #media-slider {
     margin-left: 10px;
@@ -69,6 +82,10 @@ body nav img {
 
 
 /* as-categories */
+#cont-blocchi_as {
+    margin-left: 40px;
+}
+
 
 .blocco_as
 {
@@ -77,15 +94,14 @@ body nav img {
 	border: 10px solid #fff;
 	text-align: center;
 	text-transform: none;
-    width: 20%;
+    margin-right: 15px;
     height: auto;
-	margin-right: 5%;
+    width: 250px;
 	z-index: 1;
 	-webkit-backface-visibility: hidden;
 	box-shadow: 
-		0px 0px 0px 10px rgba(255,255,255,1), 
-		1px 1px 3px 10px rgba(0,0,0,0.2);
-    padding:2px;
+		0px 0px 0px 5px rgba(255,255,255,1), 
+		1px 1px 3px 5px rgba(0,0,0,0.2);
 }
 
 #as-categories, #all-as {
@@ -110,8 +126,19 @@ body nav img {
     border-style: solid;
 }
 
+/* as-cat*/
+.cont-blocchetti .blocchetto {
+     border: 1px solid #b3b3b3;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f0f0f0;
+}
 
-
+.cont-blocchetti {
+    margin-top: 40px;
+}
 /* all smart life*/
 .page-header {
     margin: 0;
