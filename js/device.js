@@ -7,7 +7,6 @@ function deV() {
         method: "POST",
         crossDomain: true, 
         url: "/php/conDBdv.php",
-        dataType: "JSON",
         data: {device:id},
         success: function(response) {
             console.log(JSON.parse(response));
@@ -24,7 +23,7 @@ function deV() {
         },
         error: function(request,error) 
         {
-            console.log("Error");
+            console.log("error");
         }
     });
 
