@@ -283,7 +283,7 @@ div h2 {
   background-color: #f5f5f5;
   margin-top: 20px;
     
-  position: sticky;
+  position: relative;
   border: 1px solid transparent;
   border-color: #e7e7e7;
 }

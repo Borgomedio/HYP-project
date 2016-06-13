@@ -7,7 +7,6 @@
         exit();  
     }
     else {
-        $query = " SELECT A,F,G FROM Device ";
     
         $risultato = $mysqli->query($query);
     
