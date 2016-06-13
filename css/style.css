@@ -92,9 +92,23 @@ body nav img {
     background-image: url(/img/as-categories/header-support.png)
 }
 
-/* all as */
+/* as */
+#descriz-as p{
+    text-align: justify;
+}
+
+#related img{
+    margin-top: 10px;
+    
+}
 
 
+#related {
+    padding:10px;
+    border: 1px;
+    border-color: #10469b;
+    border-style: solid;
+}
 
 
 
@@ -282,8 +296,7 @@ div h2 {
   height: auto;
   background-color: #f5f5f5;
   margin-top: 20px;
-    
-  position: sticky;
+  position: relative;
   border: 1px solid transparent;
   border-color: #e7e7e7;
 }
