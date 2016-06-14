@@ -125,7 +125,6 @@ body nav img {
     border-color: #10469b;
     border-style: solid;
 }
-
 /* as-cat*/
 .cont-blocchetti .blocchetto {
      border: 1px solid #b3b3b3;
@@ -151,9 +150,7 @@ body nav img {
     background-image: url(/img/all-smartlife/bannersmart.png);
 }
 
-.page-header {
-    border: 0px;
-}
+
 
 #bannertv h1, #bannerhome h1, #bannerhealth h1, #bannerpers h1 {
     color: white;
@@ -172,7 +169,7 @@ body nav img {
 #bannertv {
     background-image: url(/img/all-smartlife/01-tv-entertainment.jpg);
     background-size:cover;
-    height: auto;
+    height: ;
     
 }
 
@@ -212,6 +209,58 @@ body nav img {
     padding:2px;
 
 }
+/* smart life by category */
+#testobanner {
+    width: 500px;
+    margin: auto;
+}
+#banneroni h1 {
+    text-align: center;
+    padding-top: 150px;
+}
+
+#banneroni p {
+    text-align: center;
+}
+
+
+.page-header btn {
+    margin-top: 10px;
+}
+
+
+#tv {
+    background-image: url(/img/smart-categories/tv-entertainment_0.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+
+#music {
+    background-image: url(/img/smart-categories/banner-2_1.jpg);
+    background-size:cover;
+    height: 600px;
+}
+
+#reading {
+    background-image:url(/img/smart-categories/tim-reading.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+#games {
+    background-image: url(/img/smart-categories/tim-games.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+#seriea{
+    background-image: url(/img/smart-categories/serie-a.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+
 /*  smart-life categories  */
 
 #smart-cat{
