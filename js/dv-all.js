@@ -6,7 +6,7 @@ function deviceALL() {
     $.ajax({
         method: "POST",
         crossDomain:true, 
-        url: "/php/conDBdv-all.php",
+        url: "/php/conDBdv.php",
         data: {device:id},
         success: function(response) {
             console.log(JSON.parse(response));
