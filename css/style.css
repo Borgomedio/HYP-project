@@ -289,14 +289,72 @@ body nav img {
 }
 
 #link1{
-    text-align: right;
+    float: left;
     margin-top: 20px;
 }
 
 #link2{
-    text-align: right;
+    float: right;
     margin-top: 20px;
 }
+
+/* faq */
+
+#faqs h3
+{ 
+    cursor:pointer; 
+}
+#faqs h3.active	
+{ 
+    color:#d74646;
+    
+}
+#faqs div 
+{ 
+    height:0; 
+    overflow:hidden; 
+    position:relative;
+    background: #fff;
+	cursor: pointer;
+	border: 10px solid #fff;
+	text-align: left;
+	text-transform: none;
+	margin: 20px;
+	box-shadow: 
+		0px 0px 0px 10px rgba(255,255,255,1), 
+		1px 1px 3px 10px rgba(0,0,0,0.2);
+    padding:2px;
+}
+#faqs div p	
+{ 
+    padding:0; 
+    margin-bottom:15px; 
+}
+
+#faqs div.active{
+    background: #fff;
+	cursor: pointer;
+	border: 10px solid #fff;
+	text-align: left;
+	text-transform: none;
+	margin: 20px;
+	box-shadow: 
+		0px 0px 0px 10px rgba(255,255,255,1), 
+		1px 1px 3px 10px rgba(0,0,0,0.2);
+    padding:2px;
+}
+
+.fa-rotate-45 {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+
+
 /*  smart-life categories  */
 
 #smart-cat{

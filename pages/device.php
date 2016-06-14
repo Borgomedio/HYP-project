@@ -99,7 +99,7 @@
         <img class="immagine blocco img-responsive left"  src="/img/device/iphone6s.png">
     </div>
     <h2 id="titolo">Iphone 6S</h2>
-    <div id="features"class="col-md-3 col-xs-12">
+    <div id="features"class="col-md-4 col-xs-12">
         <h3 id="sottotitolo">Features</h3>
         <p class="paragrafi">4GPLUS
 Display Retina HD da 4,7"(diagonale) con risoluzione di 1334x750 px
