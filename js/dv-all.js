@@ -1,6 +1,6 @@
 $(document).ready(deviceALL);
 function deviceALL() {
-    console.log("I'm ready!");
+    console.log("I'm ready! Sono dv-all!");
     var id = 1;
     
     $.ajax({
@@ -13,7 +13,6 @@ function deviceALL() {
             var device=JSON.parse(response);
             var el="";
             for(var i=0;i<device.length-1;i++){
-                console.log(device[i].A);
            
                 var tipo=1
                 if(device[i].F=="smartphone"){
@@ -26,7 +25,6 @@ function deviceALL() {
                     var tipo=4;   
                 };
                 
-                console.log('tipo='.tipo);
                 
                  var marca=1
                 if(device[i].H=="iOS"){
@@ -37,9 +35,7 @@ function deviceALL() {
                     var marca=3;   
                 };
                 
-                console.log('marca='.marca);
-                
-                el+= "<li class='mix color-"+tipo+" check"+marca+"'><img src='"+device[i].G+"' alt='Image "+i+"'></li>";             
+                el+= "<li class='mix color-"+tipo+" check"+marca+"'><a href='/pages/device.php?nome="+device[i].A+"'><img src='"+device[i].G+"' alt='Image "+i+"'></a></li>";             
                 
             }
             
@@ -52,3 +48,5 @@ function deviceALL() {
     });
 
 }
+
+//

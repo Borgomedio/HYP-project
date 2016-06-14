@@ -12,10 +12,11 @@
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>  
+   
+   <script src="/js/device.js"></script>
       
-    <script src="/js/device.js"></script>
-    
+      
   </head>
 
 <body>
@@ -73,7 +74,16 @@
   </div>
 
 </nav>
-
+    
+<!--Passaggio parametro a funzione in JavaScript-->    
+<?php
+    $nome = $_GET['nome'];
+?>    
+    
+<script> deV('<?php echo $nome;?>')</script>
+<!--Fine passaggio parametro a funzione in JavaScript-->    
+    
+    
 <div class="container">
     <div id="idDevice">
     <button id="back" type="button" class="btn btn-default btn-md">
