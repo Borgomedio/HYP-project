@@ -7,7 +7,7 @@
         exit();  
     }
     else {
-        $query = "SELECT `A`,`G` FROM Device";
+        $query = "SELECT * FROM Device";
     
         $risultato = $mysqli->query($query);
     
@@ -15,7 +15,7 @@
         {
             $myArray = array();
             while($row = $risultato->fetch_array(MYSQL_ASSOC)) {
-                $myArray[] = $row;
+                $myArray[] =array_map('utf8_encode',$row) ;
             }
             echo json_encode($myArray);
         }
@@ -25,3 +25,4 @@
         $mysqli->close();
     }
 ?>
+
