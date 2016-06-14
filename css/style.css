@@ -45,6 +45,7 @@ body nav img {
     .list-group {
         float: none;
     }
+    
 }
 
 @media (max-width: 768px)
@@ -60,6 +61,12 @@ body nav img {
 }
 
 
+@media (max-width: 768px)
+{
+    #banneroni h1{
+        color: azure;
+    }
+}
 /* home */
 #media-slider {
     margin-left: 10px;
@@ -209,9 +216,9 @@ body nav img {
     padding:2px;
 
 }
-/* smart life by category */
+/* tv & entertainment */
 #testobanner {
-    width: 500px;
+    width: 300px;
     margin: auto;
 }
 #banneroni h1 {
@@ -230,9 +237,12 @@ body nav img {
 
 
 #tv {
+    
     background-image: url(/img/smart-categories/tv-entertainment_0.jpg);
     background-size: cover;
     height: 600px;
+    
+    
 }
 
 
@@ -260,7 +270,33 @@ body nav img {
     height: 600px;
 }
 
+/* smartlife generica */
 
+.box p{
+    text-align: justify;
+}
+
+#box2 {
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    height:auto;    
+}
+
+.prezzo-smart {
+    color: red;
+    margin-top: 20px;
+}
+
+#link1{
+    text-align: right;
+    margin-top: 20px;
+}
+
+#link2{
+    text-align: right;
+    margin-top: 20px;
+}
 /*  smart-life categories  */
 
 #smart-cat{
