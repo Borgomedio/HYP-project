@@ -86,7 +86,7 @@
     
 <div class="container">
     <div id="idDevice">
-    <button id="back" type="button" class="btn btn-default btn-md">
+<!--    <button id="back" type="button" class="btn btn-default btn-md">
             <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
         </button>
     <button id="next" type="button" class="btn btn-default btn-md">
@@ -118,7 +118,8 @@ iOS 9 e iCloud</p>
     
     </div>
     
-   
+-->
+        
     </div>
 </div>
 

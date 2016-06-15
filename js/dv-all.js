@@ -12,7 +12,7 @@ function deviceALL() {
             console.log(JSON.parse(response));
             var device=JSON.parse(response);
             var el="";
-            for(var i=0;i<device.length-1;i++){
+            for(var i=0;i<device.length;i++){
            
                 var tipo=1
                 if(device[i].F=="smartphone"){

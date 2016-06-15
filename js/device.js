@@ -15,11 +15,11 @@ function deV(nome) {
             console.log(JSON.parse(response));
             var device=JSON.parse(response);
             var el="";
-            for(var i=0;i<12;i++){
+            for(var i=0;i<device.length;i++){
                 if(i==0){
                     var k=0;
                     var j=i+1;
-                }else if(i==11){
+                }else if(i==device.length-1){
                     var k=i-1;
                     var j=i;
                 }else{
