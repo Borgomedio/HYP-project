@@ -14,7 +14,7 @@
   
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
    
-	<script src="/js/dv-promotions.js"></script>
+	<script src="/js/dv-categories.js"></script>
 
   </head>
 
@@ -73,11 +73,21 @@
   </div>
 
 </nav>
+
+<!--Passaggio parametro a funzione in JavaScript-->    
+<?php
+    $tipo = $_GET['tipo'];
+?>    
+    
+<script> deviceDL("<?php echo $tipo;?>")</script>
+<!--Fine passaggio parametro a funzione in JavaScript-->      
+    
+    
     <!--Inizio barra introduttiva titolo-->
         
         <div id="device-cat" class="jumbotron">
             <div class="container" class="img-responsive">
-                <h2>Smartphones</h2>
+                <h2><?php echo $tipo;?></h2>
             </div>
         </div>
         
@@ -135,7 +145,7 @@
         <ol class="breadcrumb">
             <li><a href="/index.html">Home</a></li>
             <li><a href="/pages/device-category.html">Device Categories</a></li>
-            <li class="active">Smartphones</li>
+            <li class="active"><?php echo $tipo;?></li>
             
           </ol>
         <p class="text-muted">&copy; Tim Company 2016</p>
@@ -146,7 +156,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     
-    <script>window.jQuery || document.write("<script src="js/jquery.min.js"><\/script>")</script>
+    <script>window.jQuery || document.write("<script src='js/jquery.min.js'><\/script>")</script>
     <script src="/js/bootstrap.min.js"></script>
     </body>
 </html>
