@@ -143,7 +143,6 @@
     <footer class="footer">
       <div class="container">
         <ol class="breadcrumb">
-            <li><a href="/index.html">Home</a></li>
             <li><a href="/pages/device-category.html">Device Categories</a></li>
             <li class="active"><?php echo $tipo;?></li>
             
