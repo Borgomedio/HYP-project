@@ -15,11 +15,11 @@ function deviceALL() {
             for(var i=0;i<device.length;i++){
            
                 var tipo=1
-                if(device[i].F=="smartphone"){
+                if(device[i].F=="Smartphones"){
                     var tipo=1;
-                }else if(device[i].F=="tablet"){
+                }else if(device[i].F=="Tablets"){
                     var tipo=2;
-                }else if(device[i].F=="tv & smart living"){
+                }else if(device[i].F=="TV-SmartLiving"){
                     var tipo=3;
                 }else{
                     var tipo=4;   

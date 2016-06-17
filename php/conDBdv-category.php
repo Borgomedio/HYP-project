@@ -1,6 +1,6 @@
 <?php
     
-    $mysqli = new mysqli("localhost", "root", "", "ODS_DB");
+    $mysqli = new mysqli("localhost", "root", "", "my_hypproject");
 
     if (mysqli_connect_errno()) { 
         echo "Error to connect to DBMS: ".mysqli_connect_error(); 

@@ -130,7 +130,7 @@ iOS 9 e iCloud</p>
     <footer class="footer">
       <div class="container">
         <ol class="breadcrumb">
-            <li><a href="/index.html">Home</a></li>
+            
             <li><a class="active">Device</a></li>
         </ol>
         <p class="text-muted">&copy; Tim Company 2016</p>
