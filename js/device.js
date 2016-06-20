@@ -1,6 +1,6 @@
 //$(document).ready(deV);
 
-function deV(nome) {
+function deV(nome,tipo) {
     console.log("I'm ready! Sono device.js!");
     console.log(nome);
     
