@@ -2,6 +2,7 @@
 body {
     padding-top: 30px;
     padding-bottom: 20px;
+    
 }
 
 body nav img {
@@ -57,7 +58,9 @@ body nav img {
     .blocco_as{
         margin-top: 30px;
     }
+    
 }
+
 
 @media (max-width: 768px)
 {
@@ -80,6 +83,7 @@ body nav img {
         color: azure;
     }
 }
+
 /* home */
 #media-slider {
     margin-left: 10px;
@@ -145,6 +149,22 @@ body nav img {
     border-color: black;
     border-style: solid;
 }
+/* as by cat */
+.as-blocco {
+    float: left;
+}
+
+
+.as-blocco h5 {
+    padding: 10px;
+}
+
+#as-blocchi {
+   margin: 0 auto;
+   /* aggiungere larghezza div */ 
+    
+}
+
 /* as-cat*/
 .cont-blocchetti .blocchetto {
      border: 1px solid #b3b3b3;
@@ -531,9 +551,9 @@ div h2 {
   height: auto;
   background-color: #f5f5f5;
   margin-top: 20px;
-  position: relative;
   border: 1px solid transparent;
   border-color: #e7e7e7;
+  
 }
 
 .breadcrumb  {
