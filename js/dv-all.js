@@ -1,4 +1,4 @@
-$(document).ready(deviceALL);
+//$(document).ready(deviceALL);
 function deviceALL() {
     console.log("I'm ready! Sono dv-all!");
     var id = 1;
@@ -35,7 +35,7 @@ function deviceALL() {
                     var marca=3;   
                 };
                 
-                el+= "<li class='mix color-"+tipo+" check"+marca+"'><a href='/pages/device.php?nome="+device[i].A+"'><img src='"+device[i].G+"' alt='Image "+i+"'></a></li>";             
+                el+= "<li class='mix color-"+tipo+" check"+marca+"'><a href='/pages/device.php?nome="+device[i].A+"&tipo="+device[i].F+"'><img src='"+device[i].G+"' alt='Image "+i+"'></a></li>";             
                 
             }
             

@@ -78,6 +78,7 @@
 <!--Passaggio parametro a funzione in JavaScript-->    
 <?php
     $nome = $_GET['nome'];
+    $tipo = $_GET['tipo'];
 ?>    
     
 <script> deV('<?php echo $nome;?>')</script>
@@ -86,43 +87,8 @@
     
 <div class="container">
     <div id="idDevice">
-<!--    <button id="back" type="button" class="btn btn-default btn-md">
-            <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
-        </button>
-    <button id="next" type="button" class="btn btn-default btn-md">
-            <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
-        </button>
-    
-    <div class="col-md-9 col-xs-11">
-        <img class="immagine blocco img-responsive left"
-             id="dev" src="/img/device/apple-iPhone6s_Gld.png">
-        <img class="immagine blocco img-responsive left"  src="/img/device/iphone6s.png">
+        <!-- Contenuto caricato da DB -->
     </div>
-    <h2 id="titolo">Iphone 6S</h2>
-    <div id="features"class="col-md-4 col-xs-12">
-        <h3 id="sottotitolo">Features</h3>
-        <p class="paragrafi">4GPLUS
-Display Retina HD da 4,7"(diagonale) con risoluzione di 1334x750 px
-3D Touch
-Chip A9 con coprocessore di movimento M9 integrato
-Fotocamera iSight da 12 megapixel con Focus Pixels, True Tone Flash e Live Photos
-iOS 9 e iCloud</p>
-        
-        
-     <h4 class="prezzo-dev">500 €</h4>   
-    </div>
-    
-    <div id="desc" class="col-md-12 col-xs-10">
-        <h3 id="sottotitolo">Description</h3>
-        <p class="paragrafi">Display Retina HD da 4,7" con 3D Touch. Alluminio serie 7000 e vetro più resistente. Chip A9 con architettura a 64 bit di livello desktop. Nuova fotocamera iSight da 12MP con Live Photos. Touch ID. Connessioni Wi-Fi e 4G LTE più veloci.1 Batteria a lunga durata.2 E ancora, iOS 9 e iCloud. Il tutto in un elegante guscio unibody.</p>
-    
-    </div>
-    
--->
-        
-    </div>
-    
-    
 </div>
 
     
@@ -130,9 +96,10 @@ iOS 9 e iCloud</p>
     <footer class="footer">
       <div class="container">
         <ol class="breadcrumb">
-            
-            <li><a class="active">Device</a></li>
-        </ol>
+            <li><a class="active" href="/pages/device-category.html">Device Categories</a></li>
+            <li><a class="active" href="/pages/device-categories.php?tipo=<?php echo $tipo;?>"><?php echo $tipo;?></a></li>
+            <li><a class="active"><?php echo $nome;?></a></li>
+        </ol>   
         <p class="text-muted">&copy; Tim Company 2016</p>
       </div>
     </footer>
