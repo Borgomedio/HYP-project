@@ -148,6 +148,7 @@ body nav img {
     border: 1px;
     border-color: black;
     border-style: solid;
+    border-color: #b3b3b3;
 }
 /* as by cat */
 .as-blocco {
@@ -301,6 +302,46 @@ body nav img {
     background-size: cover;
     height: 600px;
 }
+
+/* personal services */
+#testobanner2 {
+    width: 300px;
+    margin-left: 8%;
+}
+#banneroni2 h1 {
+    text-align: left;
+    padding-top: 100px;
+}
+
+#banneroni2 p {
+    text-align: left;
+}
+    
+
+#payments {
+    background-image: url(/img/personal-serv/pagamenti.jpg);
+    background-size: cover;
+    height: 400px;  
+}
+
+#coupon {
+    background-image: url(/img/personal-serv/coupon.jpg);
+    background-size: cover;
+    height: 400px;
+}
+
+#transport {
+    background-image: url(/img/personal-serv/trasporti.jpg);
+    background-size: cover;
+    height: 400px;
+}
+
+#fidelity{
+    background-image: url(/img/personal-serv/fidelity-card.jpg);
+    background-size: cover;
+    height: 400px;
+}
+
 /* smartlife by category */
 
 #info{
