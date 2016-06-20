@@ -160,8 +160,7 @@ body nav img {
 }
 
 #as-blocchi {
-   margin: 0 auto;
-   /* aggiungere larghezza div */ 
+  display: table;
     
 }
 
@@ -345,11 +344,18 @@ body nav img {
     
 }
 
+.bottone span {
+    margin-right: 2px;
+    
+}
+
+
 .dev-rel {
     border: 0.5px;
     border-style: solid;
     padding: 10px;
     height: auto;
+    border-color: #b3b3b3;
 }
 .box p{
     text-align: justify;
@@ -357,7 +363,7 @@ body nav img {
 
 #box2 {
     border: 1px;
-    border-color: black;
+    border-color: #b3b3b3;
     border-style: solid;
     height:auto;
     
@@ -433,6 +439,40 @@ body nav img {
     transform: rotate(45deg);
 }
 
+/* highlights */
+
+.cont-evidenza .col-md-6
+{
+    border-top: 1px solid #b3b3b3;
+    padding-left: 20px;
+    
+    display: table;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 18px;
+    font-size: 15px;
+}
+
+
+
+.cont-evidenza {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    
+}
+
+
+.cont-evidenza span {
+    float: right;
+}
+
+
+
+.bordobasso {
+    border-bottom: 1px solid #b3b3b3;
+    padding-bottom: 20px;
+}
 
 
 
@@ -512,12 +552,14 @@ div h2 {
 #features{
     border: 0.5px;
     border-style:double;
+    border-color: #b3b3b3;
 }   
 
 #desc {
     border:0.5px;
     border-style: double;
     margin-top: 30px;
+    border-color: #b3b3b3;
     
 }
 .prezzo-dev{
