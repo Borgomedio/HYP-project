@@ -282,7 +282,25 @@ body nav img {
     background-size: cover;
     height: 600px;
 }
+/* smartlife by category */
 
+#info{
+    border: 0.5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: solid;
+    
+}
+
+#info p {
+    text-align: justify;
+}
+
+#info h3 {
+    color: #10469b;
+}
 /* smartlife generica */
 .dev-rel img{
     width: 150px;
