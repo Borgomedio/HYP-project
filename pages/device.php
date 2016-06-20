@@ -98,7 +98,7 @@
         <ol class="breadcrumb">
             <li><a class="active" href="/pages/device-category.html">Device Categories</a></li>
             <li><a class="active" href="/pages/device-categories.php?tipo=<?php echo $tipo;?>"><?php echo $tipo;?></a></li>
-            <li><a class="active"><?php echo $nome;?></a></li>
+            <li><?php echo $nome;?></li>
         </ol>   
         <p class="text-muted">&copy; Tim Company 2016</p>
       </div>

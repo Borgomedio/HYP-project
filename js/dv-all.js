@@ -1,4 +1,4 @@
-//$(document).ready(deviceALL);
+$(document).ready(deviceALL);
 function deviceALL() {
     console.log("I'm ready! Sono dv-all!");
     var id = 1;
@@ -25,7 +25,6 @@ function deviceALL() {
                     var tipo=4;   
                 };
                 
-                
                  var marca=1
                 if(device[i].H=="iOS"){
                     var marca=2;
@@ -48,5 +47,3 @@ function deviceALL() {
     });
 
 }
-
-//
