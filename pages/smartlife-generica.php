@@ -12,6 +12,9 @@
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>  
+    <script src="/js/sl-generica.js"></script>  
+      
   </head>
 
     <body>
@@ -69,6 +72,15 @@
   </div>
 
 </nav>
+
+<!--Passaggio parametro a funzione in JavaScript-->    
+<?php
+    $nome = $_GET['nome'];
+    $tipo = $_GET['tipo'];
+?>    
+    
+<script> SLgenerica('<?php echo $nome;?>')</script>
+<!--Fine passaggio parametro a funzione in JavaScript-->         
         
     <!--Inizio barra introduttiva titolo-->
         
@@ -150,8 +162,8 @@
         <ol class="breadcrumb">
             
             <li><a href="/pages/smartlife-categories.html">S.L. Categories</a></li>
-            <li><a href="/pages/tv-entert.html">Tv & Entertainment</a></li>
-            <li class="active">TIMreading</li>
+            <li><a href="/pages/smartlife-by-category.php?nome=<?php echo $tipo?>"><?php echo $tipo?></a></li>
+            <li class="active"><?php echo $nome?></li>
             
             
           </ol>
