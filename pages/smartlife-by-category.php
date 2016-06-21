@@ -96,7 +96,7 @@
             
             </div>
         
-            <div class="col-md-4 portfolio-item" >
+            <div class="item-smart col-md-4 portfolio-item" >
                 <a href="#">
                     <img class="img-responsive" src="" alt="">
                 </a>
