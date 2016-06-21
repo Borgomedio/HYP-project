@@ -18,7 +18,7 @@ function smartlifeCAT(){
                 if(categoria[i].nome=="TV-Entertainment"){
                     var link="/pages/tv-entert.html";
                 }else{
-                    var link="#";
+                    var link="/pages/smartlife-by-category.php?nome="+categoria[i].nome+"";
                 }
                 
                 el+= "<div class='col-xs-11 col-md-3 blocco '><img src='"+categoria[i].immagine+"' /><div class='caption'><h3><a href='"+link+"'>"+categoria[i].nome+"</a></h3></div></div>";             

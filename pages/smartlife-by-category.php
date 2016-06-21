@@ -14,7 +14,7 @@
   
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
    
-	<script src="/js/dv-promotions.js"></script>
+	<script src="/js/sl-by-category.js"></script>
 
   </head>
 
@@ -74,16 +74,21 @@
 
 </nav>
     
+<?php 
+    $nome = $_GET['nome'];
+?>
+
+<script> slBYcategory('<?php echo $nome;?>')</script>
 <!--Inizio barra introduttiva titolo-->
         
         <div id="device-cat" class="jumbotron">
-            <div class="container" class="img-responsive">
+            <div class="container" class="img-responsive" id="titolo">
                 <h2>Smart Life Category</h2>
             </div>
         </div>
 <!--Fine Barra introduttiva titolo-->
 <div class="container">
-    <div class="row ">
+    <div class="row " id="contenuto">
             
             <div class="col-md-12 col-sx-11" id="info">
             <h3>Description</h3>
@@ -140,9 +145,8 @@
       <footer class="footer">
       <div class="container">
         <ol class="breadcrumb">
-          
-            <li><a href="/pages/all-smart-life.html">All Smart Life</a></li>
-            <li class="active">Category</li>
+            <li class="active"><a href="/pages/smartlife-categories.html">Smart Life Categories</a></li>
+            <li class="active"><?php echo $nome?></li>
           </ol>
         <p class="text-muted">&copy; Tim Company 2016</p>
       </div>
