@@ -79,6 +79,8 @@
     $tipo = $_GET['tipo'];
     if($nome=="TIMreading"){
         $categoriaLink = "/pages/tv-entert.html";
+    }else if($nome=="Transport"){
+        $categoriaLink = "/pages/personal-serv.html";
     }else{
         $categoriaLink = "/pages/smartlife-by-category.php?nome=$tipo";
     }
