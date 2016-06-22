@@ -12,6 +12,10 @@
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   
+	<script src="/js/as-by-category.js"></script>  
+      
   </head>
 
     <body>
@@ -72,18 +76,26 @@
     
     <!-- chiusura navbar --> 
         
+<!--Passaggio parametro a funzione in JavaScript-->    
+<?php
+    $tipo = $_GET['tipo'];
+?>    
+    
+<script> AScate("<?php echo $tipo;?>")</script>
+<!--Fine passaggio parametro a funzione in JavaScript--> 
+        
     <!--Inizio barra introduttiva titolo-->
         
         <div id="all-as" class="jumbotron">
             <div class="container">
-                <h2>Assistance Service by category</h2>
+                <h2><?php echo $tipo;?></h2>
             </div>
         </div>
         
     <!--Fine Barra introduttiva titolo-->
         
-<div class="container">
-    <div col-lg-6 col-sx-11>
+<div class="container" id="ASbyCAT">
+ <!--   <div col-lg-6 col-sx-11>
         <div id="as-blocchi">
             <div class="as-blocco blocco" id="blocco1">
 
@@ -109,15 +121,15 @@
     
     <div col-lg-6 col-sx-11>
     
-    </div>
-</div> <!-- chiusura container-->
+    </div> chiusura container-->
+</div>  
       
     <footer class="footer">
       <div class="container">
         <ol class="breadcrumb">
             
-            <li><a href="/pages/all-as.html">All A.S.</a></li>
-            <li class="active">A.S. by cat</li>
+            <li><a href="/pages/as-categories.html">A.S. by cat</a></li>
+            <li class="active"><?php echo $tipo;?></li>
         </ol>
         <p class="text-muted">&copy; Tim Company 2016</p>
       </div>

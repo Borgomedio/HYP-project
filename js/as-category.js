@@ -15,7 +15,7 @@ function assistanceserviceCAT(){
             for(var i=0;i<categoria.length;i++){
                 console.log(categoria[i].nome);
                 
-                el+= "<div class='col-xs-11 col-md-3 blocco_as '> <img class='center-block' src='"+categoria[i].immagine+"' /><div class='caption'><h4>"+categoria[i].nome+"</h4></div></div>";             
+                el+= "<div class='col-xs-11 col-md-3 blocco_as '> <img class='center-block' src='"+categoria[i].immagine+"' /><div class='caption'><a href='/pages/as-by-category.php?tipo="+categoria[i].nome+"'><h4>"+categoria[i].nome+"</h4></a></div></div>";             
                 
             }
             
