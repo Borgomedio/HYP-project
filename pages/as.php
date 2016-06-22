@@ -11,6 +11,10 @@
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
+      
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>  
+   
+    <script src="/js/as.js"></script>
 
   </head>
 
@@ -71,18 +75,28 @@
 </nav>
     
     <!-- chiusura navbar --> 
+
+<!--Passaggio parametro a funzione in JavaScript-->    
+<?php
+    $nome = $_GET['nome'];
+    $tipo = $_GET['tipo'];
+?>    
+    
+<script> ASgen('<?php echo $nome;?>')</script>
+<!--Fine passaggio parametro a funzione in JavaScript--> 
         
     <!--Inizio barra introduttiva titolo-->
         
         <div id="all-as" class="jumbotron">
             <div class="container">
-                <h2>Request a refund</h2>
+                <h2><?php echo $nome;?></h2>
             </div>
         </div>
         
     <!--Fine Barra introduttiva titolo-->
         
 <div class="container " id="contenuto">
+<!-- Parte sostituita da DB
     <div class="row">
         <div id="descriz-as" class="col-md-10 col-sx-10">
             <h3>Description</h3>
@@ -109,16 +123,16 @@
     
     <div class="row">
         
-    </div>
-</div> <!-- chiusura container-->
+    </div>chiusura container-->
+</div>  
       
     <footer class="footer">
       <div class="container">
         <ol class="breadcrumb">
             
             <li><a href="/pages/all-as.html">All A.S.</a></li>
-            <li><a href="/pages/as-by-category.html">Costs and payment</a></li>
-            <li class="active">Request refund</li>
+            <li><a href="/pages/as-by-category.html"><?php echo $tipo;?></a></li>
+            <li class="active"><?php echo $nome;?></li>
         </ol>
         <p class="text-muted">&copy; Tim Company 2016</p>
       </div>
@@ -128,8 +142,8 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    
+
+    <script>window.jQuery || document.write("<script src='js/jquery.min.js'><\/script>")</script> 
     <script src="/js/bootstrap.min.js"></script>
     
     
