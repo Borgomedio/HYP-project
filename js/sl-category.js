@@ -17,6 +17,8 @@ function smartlifeCAT(){
                 
                 if(categoria[i].nome=="TV-Entertainment"){
                     var link="/pages/tv-entert.html";
+                }else if(categoria[i].nome=="Personal services"){
+                    var link="/pages/personal-serv.html";
                 }else{
                     var link="/pages/smartlife-by-category.php?nome="+categoria[i].nome+"";
                 }
