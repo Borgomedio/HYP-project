@@ -131,7 +131,7 @@
         <ol class="breadcrumb">
             
             <li><a href="/pages/all-as.html">All A.S.</a></li>
-            <li><a href="/pages/as-by-category.html"><?php echo $tipo;?></a></li>
+            <li><a href="/pages/as-by-category.php?tipo=<?php echo $tipo;?>"><?php echo $tipo;?></a></li>
             <li class="active"><?php echo $nome;?></li>
         </ol>
         <p class="text-muted">&copy; Tim Company 2016</p>
