@@ -27,7 +27,13 @@ function AScate(tipo){
                         var link2 = "";
                     }
                     
-                el+= "<div col-lg-6 col-sx-11><div id='as-blocchi'><div class='as-blocco blocco' id='blocco1'><h3>"+AS[i].B+"</h3><a href=''><h5><span class='glyphicon glyphicon-triangle-right' aria-hidden='true'></span>"+AS[i].C+"</h5></a><a href=''><h5><span class='glyphicon glyphicon-triangle-right' aria-hidden='true'></span>"+AS[i].D+"</h5></a><a href='"+link1+"'><h5><span class='glyphicon glyphicon-triangle-right' aria-hidden='true'></span>"+AS[i].E+"</h5></a></div> <div class='as-blocco blocco'>    <h3>"+AS[i].F+"</h3><a href=''><h5><span class='glyphicon glyphicon-triangle-right' aria-hidden='true'></span>"+AS[i].G+"</h5></a><a href='"+link2+"'><h5><span class='glyphicon glyphicon-triangle-right' aria-hidden='true'></span>"+AS[i].H+"</h5></a><a href=''><h5><span class='glyphicon glyphicon-triangle-right' aria-hidden='true'></span>"+AS[i].I+"</h5></a></div></div></div><div col-lg-6 col-sx-11></div>";             
+                    if(AS[i].D=="Request a refund"){
+                        var link0 = "/pages/as.php?nome=Costs and payments: Request a refund&tipo=Costs-Payment";
+                    }else{
+                        var link0 = "";
+                    }
+                    
+                el+= "<div col-lg-6 col-sx-11><div id='as-blocchi'><div class='as-blocco blocco' id='blocco1'><h3>"+AS[i].B+"</h3><a href=''><h5><span class='glyphicon glyphicon-triangle-right' aria-hidden='true'></span>"+AS[i].C+"</h5></a><a href='"+link0+"'><h5><span class='glyphicon glyphicon-triangle-right' aria-hidden='true'></span>"+AS[i].D+"</h5></a><a href='"+link1+"'><h5><span class='glyphicon glyphicon-triangle-right' aria-hidden='true'></span>"+AS[i].E+"</h5></a></div> <div class='as-blocco blocco'>    <h3>"+AS[i].F+"</h3><a href=''><h5><span class='glyphicon glyphicon-triangle-right' aria-hidden='true'></span>"+AS[i].G+"</h5></a><a href='"+link2+"'><h5><span class='glyphicon glyphicon-triangle-right' aria-hidden='true'></span>"+AS[i].H+"</h5></a><a href=''><h5><span class='glyphicon glyphicon-triangle-right' aria-hidden='true'></span>"+AS[i].I+"</h5></a></div></div></div><div col-lg-6 col-sx-11></div>";             
                 }
             }
             
