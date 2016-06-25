@@ -7,7 +7,7 @@
         exit();  
     }
     else {
-        $query = "SELECT * FROM assistanceserviceCategory";
+        $query = "SELECT * FROM assistanceservicecategory";
     
         $risultato = $mysqli->query($query);
     

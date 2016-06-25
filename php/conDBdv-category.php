@@ -7,7 +7,7 @@
         exit();  
     }
     else {
-        $query = "SELECT * FROM deviceCategory";
+        $query = "SELECT * FROM devicecategory";
     
         $risultato = $mysqli->query($query);
     

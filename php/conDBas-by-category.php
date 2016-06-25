@@ -7,7 +7,7 @@
         exit();  
     }
     else {
-        $query = "SELECT * FROM `ASbyCAT`";
+        $query = "SELECT * FROM `asbycat`";
     
         $risultato = $mysqli->query($query);
     

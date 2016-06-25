@@ -7,7 +7,7 @@
         exit();  
     }
     else {
-        $query = "SELECT * FROM smartlifeCategory";
+        $query = "SELECT * FROM smartlifecategory";
     
         $risultato = $mysqli->query($query);
     
