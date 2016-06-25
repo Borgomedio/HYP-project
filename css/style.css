@@ -157,16 +157,18 @@ body nav img {
 /* as by cat */
 .as-blocco {
     float: left;
+    width: 280px;
+    height: 256px;
 }
 
 
 .as-blocco h5 {
-    padding: 10px;
+    padding: 15px;
 }
 
 #as-blocchi {
   display: table;
-    
+    width: 
 }
 
 /* as-cat*/
@@ -598,9 +600,11 @@ div h2 {
 #rel-as h3 {
     color: #10469b;
 }
+
 .guide {
     float: left;
 }
+
 .guide img {
     height: 40px;
     width: 40px;
