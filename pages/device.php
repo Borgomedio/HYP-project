@@ -75,10 +75,28 @@
 
 </nav>
     
-<!--Passaggio parametro a funzione in JavaScript-->    
+<!--Passaggio parametro a funzione in JavaScript-->   
 <?php
     $nome = $_GET['nome'];
     $tipo = $_GET['tipo'];
+    
+    if($tipo=="Smartphones"){
+        $ASn = "Technical Support: Mail setup on iPhone";
+        $ASt = "Technical Support";
+    }
+    if($tipo=="TV-SmartLiving"){
+        $ASn = "Costs and payments: Request a refund";
+        $ASt = "Costs-Payment";
+    }
+    if($tipo=="Modem-Networking"){
+        $ASn = "Smart Life: Accessing TIMgames";
+        $ASt = "Smart Life";
+    }
+    if($tipo=="Tablets"){
+        $ASn = "Costs and payments: Call details to Cust";
+        $ASt = "Costs-Payment";
+    }
+    
 ?>    
     
 <script> deV('<?php echo $nome;?>')</script>
@@ -93,10 +111,10 @@
     <div class="col-md-3 col-sx-10 right" id="rel-as">
         <h3>Related Assistance Service</h3>
         <ul class="list-group">
-          <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
-  <a href="#" class="list-group-item">Morbi leo risus</a>
-  <a href="#" class="list-group-item">Porta ac consectetur ac</a>
-  <a href="#" class="list-group-item">Vestibulum at eros</a>
+          <a href="/pages/as.php?nome=<?php echo $ASn;?>&tipo=<?php echo $ASt;?>" class="list-group-item active" ><?php echo $ASn;?></a>
+  <a href="#" class="list-group-item">All about your SIM</a>
+  <a href="#" class="list-group-item">Connect to the Internet</a>
+  
             </ul>
     </div>
     
