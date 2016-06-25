@@ -89,6 +89,17 @@
     <div id="idDevice">
         <!-- Contenuto caricato da DB -->
     </div>
+    
+    <div class="col-md-3 col-sx-10 right" id="rel-as">
+        <h3>Related Assistance Service</h3>
+        <ul class="list-group">
+          <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+  <a href="#" class="list-group-item">Morbi leo risus</a>
+  <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+  <a href="#" class="list-group-item">Vestibulum at eros</a>
+            </ul>
+    </div>
+    
 </div>
 
     

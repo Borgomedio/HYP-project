@@ -586,14 +586,24 @@ div h2 {
 }
 
 /* device */
-.guide {
-    
-   
+#rel-as {
+
+    margin-top: 30px;
+    margin-left: 5px;
+    border: 0.5px;
+    border-style:double;
+    border-color: #b3b3b3;
 }
 
+#rel-as h3 {
+    color: #10469b;
+}
+.guide {
+    float: left;
+}
 .guide img {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
 }
 
 .immagine {
@@ -620,10 +630,9 @@ div h2 {
 }   
 
 #desc {
-    border:0.5px;
-    border-style: double;
+   
     margin-top: 30px;
-    border-color: #b3b3b3;
+    
     
 }
 .prezzo-dev{
