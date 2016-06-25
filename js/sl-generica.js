@@ -25,8 +25,33 @@ function SLgenerica(nome){
                     var ritorna="/pages/smartlife-by-category.php?nome="+SL[i].H+"";
                 }
                     
-    el1+= "<div id='all-smart' class='jumbotron'><div class='container'><h2>"+SL[i].A+" </h2></div></div><div class='container'><div class='row'><div class='col-md-6 col-sx-11 box'><h3>Description</h3><p>"+SL[i].B+"</p></div><div class='col-md-6 col-sx-10 box' id='box2'><p>"+SL[i].C+" </p><h4 class='prezzo-smart'>"+SL[i].G+" </h4></div><div class='col-md-6 bottone'><a href='"+ritorna+"' id='link1' type='button' class='btn btn-primary '><span class='glyphicon glyphicon-menu-left' aria-hidden='true'></span>Return to "+SL[i].H+"</a>";
+    el1+= "<div id="all-smart" class="jumbotron">
+            <div class="container">
+                <h2>TIMreading </h2>
+            </div>
+        </div>";
+            
+    el2+= "<h3>Description</h3>
+                    <p></p>"
+    
+    el3+= "<a href="/pages/tv-entert.html" id="link1" type="button" class="btn btn-primary "><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>Return to category</a>"
+    
+    el4+="<a href="/pages/smart-faq.html" id="link2" type="button" class="btn btn-primary "><span class="glyphicon  glyphicon-question-sign" aria-hidden="true"></span>Go to FAQ</a>"
+    
+    el5+="<h3>How to activate</h3>
+                        <p>
+
+                            * The flip through smartphones is only available for some titles. Discover devices compatible with each newspaper on timreading.it
+                            </p>
+                            <h4 class="prezzo-smart">19.90$/month</h4>"
   
+    el6+="<h4>Related Devices</h4>
+                    <div id="blocco-img" >
+                         <img class="img-responsive" src="/img/device/iphone6s.png">
+                         <img class=" img-responsive" src="/img/device/iphone6s.png">
+                         <img class="img-responsive" src="/img/device/iphone6s.png">
+                    </div>"
+            
     if(nome=="TIMreading"||"Transport"){
     el2+="<a href='/pages/smart-faq.html' id='link2' type='button' class='btn btn-primary '><span class='glyphicon  glyphicon-question-sign' aria-hidden='true'></span>Go to FAQ</a></div></div>";
     }
