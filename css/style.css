@@ -47,6 +47,10 @@ body nav img {
         float: none;
     }
     
+    .guide {
+    top: auto;
+}
+    
 }
 
 @media (max-width: 768px)
@@ -582,6 +586,16 @@ div h2 {
 }
 
 /* device */
+.guide {
+    
+   
+}
+
+.guide img {
+    height: 50px;
+    width: 50px;
+}
+
 .immagine {
     height: 300px;
     width: 300px;
