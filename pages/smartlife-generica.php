@@ -77,6 +77,13 @@
 <?php
     $nome = $_GET['nome'];
     $tipo = $_GET['tipo'];
+    if($nome=="TIMreading"){
+        $categoriaLink = "/pages/tv-entert.html";
+    }else if($nome=="Transport"){
+        $categoriaLink = "/pages/personal-serv.html";
+    }else{
+        $categoriaLink = "/pages/smartlife-by-category.php?nome=$tipo";
+    }
 ?>    
     
 <script> SLgenerica('<?php echo $nome;?>')</script>
@@ -163,7 +170,7 @@
             </div><!--chiuso row-->
         <div class="row">   
             <div class="col-md-12 col-sx-11 dev-rel">
-                <div id="SLgen4">
+                <div id="Slgen4">
                     <!-- SLgen4
                     <h4>Related Devices</h4>
                     <div id="blocco-img" >
@@ -185,7 +192,7 @@
         <ol class="breadcrumb">
             
             <li><a href="/pages/smartlife-categories.html">S.L. Categories</a></li>
-            <li><a href="/pages/smartlife-by-category.php?nome=<?php echo $tipo?>"><?php echo $tipo?></a></li>
+            <li><a href="<?php echo $categoriaLink?>"><?php echo $tipo?></a></li>
             <li class="active"><?php echo $nome?></li>
             
             

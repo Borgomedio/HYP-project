@@ -84,7 +84,7 @@
     }else{
         $categoriaLink = "/pages/smartlife-by-category.php?nome=$tipo";
     }
-?>    
+?>    \1
     
 <script> SLgenerica('<?php echo $nome;?>')</script>
 <!--Fine passaggio parametro a funzione in JavaScript-->         
