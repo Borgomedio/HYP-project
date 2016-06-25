@@ -91,6 +91,7 @@ body nav img {
 /* home */
 #media-slider {
     margin-left: 10px;
+    margin-right: 10px;
 }
 .thumbnail {
     width: 230px;
@@ -168,7 +169,8 @@ body nav img {
 
 #as-blocchi {
   display: table;
-    width: 
+    width: 640px;
+    margin: auto;
 }
 
 /* as-cat*/
