@@ -132,7 +132,7 @@
                     -->
                 </div>
                 
-                <div class="col-md-6 bottone">
+                <div class="col-md-6 col-xs-12 bottone">
                     <div id="Sl-link1">
                         <!-- SLgen2
                         <a href="/pages/tv-entert.html" id="link1" type="button" class="btn btn-primary "><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>Return to category</a>
