@@ -30,6 +30,19 @@ body nav img {
     float: right;
 }
 
+/* innovation */
+#innov .col-md-4 {
+    margin-top: 50px;
+}
+
+#innov .pagination
+{
+    margin-top:50px;
+}
+
+#innov img {
+    height: 78px;
+}
 
 
 /* media query */
