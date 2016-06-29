@@ -42,8 +42,17 @@ body nav img {
 
 #innov img {
     height: 78px;
+
 }
 
+#innov span {
+    margin-right: 2px;
+    margin-left: 
+}
+
+#innov .text-center .btn {
+    margin-top: 10px;
+}
 
 /* media query */
 

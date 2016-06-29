@@ -32,7 +32,7 @@
     <a class="navbar-brand" href="/index.html"><img src="/img/logo_tim.png"></a>
   </div>
 
-  <!—Elementi della barra -->
+  <!--Elementi della barra -->
   <div class="collapse navbar-collapse navbar-ex1-collapse">
     <ul class="nav navbar-nav">
             <li class="nav-item">
