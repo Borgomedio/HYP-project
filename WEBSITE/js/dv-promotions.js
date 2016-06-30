@@ -16,7 +16,7 @@ function deviceDL(){
                 if(device[i].E==1){
                 console.log(device[i].A);
                 
-                el+= "<div class='col-md-4 text-center  portfolio-item'>  <a href='/pages/device.php?nome="+device[i].A+"&tipo="+device[i].F+"'> <img class='img-responsive center-block' src='"+device[i].G+"' alt=''></a> <h5> <a href='/pages/device.php?nome="+device[i].A+"&tipo="+device[i].F+"'>"+device[i].A+"</a> </h5><p class='prezzo''>"+device[i].D+"</p><a href='/pages/device.php?nome="+device[i].A+"&tipo="+device[i].F+"' class='btn btn-primary' role='button'>View More</a></div>";             
+                el+= "<div class='col-md-4 text-center  portfolio-item'>  <a href='/pages/device.php?nome="+device[i].A+"&tipo="+device[i].F+"'> <img class='img-responsive center-block' src='"+device[i].G+"' alt=''></a> <h5> <a href='/pages/device.php?nome="+device[i].A+"&tipo="+device[i].F+"'>"+device[i].A+"</a> </h5><p class='prezzo''>"+device[i].D+" $</p><a href='/pages/device.php?nome="+device[i].A+"&tipo="+device[i].F+"' class='btn btn-primary' role='button'>View More</a></div>";             
                 }
             }
             
